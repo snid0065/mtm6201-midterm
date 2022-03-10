@@ -63,7 +63,7 @@ html{
        color:white;
    }
    #logo{
-       max-width: 50px;
+       max-width: 100px;
    }
    #title{
        font-size: px;
@@ -344,7 +344,7 @@ td, th{
        color:white;
    }
    #logo{
-       max-width: 50px;
+       max-width: 100px;
        padding-right: 200px;
    }
    #title{
