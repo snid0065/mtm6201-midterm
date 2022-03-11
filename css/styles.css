@@ -66,7 +66,7 @@ html{
        max-width: 100px;
    }
    #title{
-       font-size: px;
+       font-size: 18px;
        padding-top: 10px;
    }
  
@@ -147,6 +147,10 @@ html{
        border-radius: 15px;
  
    }
+   #aboutbutton:hover {
+    transform:scale(120%);
+    transition: 0.8s
+   }
   
   .box2 {
    background-color: #ADC9BE;
@@ -176,6 +180,11 @@ html{
        font-size: 20px;  
        font-family: 'Monaco', serif;
        border-radius: 15px;
+   }
+
+   #contactbutton:hover {
+    transform:scale(120%);
+    transition: 0.8s
    }
   
   .box3 {
@@ -391,12 +400,11 @@ td, th{
        padding-top: 30px;
    }
    #donuts {
-       max-width: 300px;
+       max-width: 320px;
        padding: 0px;
    }
  
    #selection {
-       max-width: 675px;
        padding: 0px;
    }
  
@@ -409,8 +417,8 @@ td, th{
        width: 100vw;
        margin-top: 50px;
        display: grid;
-       grid-template-columns: 1fr 2fr 2fr;
-       grid-template-rows: 3 1fr;
+       grid-template-columns: 0.5fr 1fr 1fr;
+       grid-template-rows: 1fr 1fr 1fr;
        grid-template-areas:
            "one two four four four"
            "one three four four four"
@@ -439,8 +447,8 @@ td, th{
        padding-top: 30px;
    }
    #process {
-       max-width: 300px;
        padding: 0px;
+       max-width: 320px;
    }
  
    #box2p {
@@ -457,12 +465,13 @@ td, th{
        }
   
   .box2 {
+   max-height: 480px;
    background-color: #ADC9BE;
    width: 100vw;
    margin-top: 50px;
    display: grid;
-   grid-template-rows: 3, 1fr;
-   grid-template-columns: 1fr, 3fr, 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
    grid-template-areas:
        "one one one one four"
        "two two two two four"
@@ -494,12 +503,13 @@ td, th{
        padding-top: 30px;
    }
    #baker2 {
-       max-width: 300px;
+       height: 480px;
        padding: 0px;
    }
  
    #box3p {
        color: white;
+       justify-self: auto ;
    }
  
    #contactbutton {
@@ -512,14 +522,15 @@ td, th{
    }
   
   .box3 {
+   max-height: 480px;
    background-color: #958D86;
    border-color: #707070;
    border-width: 3px;
    width: 100vw;
    margin-top: 50px;
    display: grid;
-   grid-template-rows: 3, 1fr;
-   grid-template-columns: 1fr, 3fr, 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
    grid-template-areas:
        "four one one one one "
        "four two two two two"
@@ -567,8 +578,8 @@ td, th{
    width: 100vw;
    margin-top: 50px;
    display: grid;
-   grid-template-rows: 3, 1fr;
-   grid-template-columns: 1fr, 3fr, 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
    grid-template-areas:
        "three one one one one"
        "three two two two two"
@@ -611,8 +622,8 @@ td, th{
    width: 100vw;
    margin-top: 50px;
    display: grid;
-   grid-template-rows: 3, 1fr;
-   grid-template-columns: 1fr, 3fr, 1fr;
+   grid-template-rows: 1fr 1fr 1fr;
+   grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
    grid-template-areas:
        "one one one one three"
        "two two two two three"
